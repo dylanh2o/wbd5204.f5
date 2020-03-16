@@ -7,8 +7,6 @@ const jwt = require('jsonwebtoken');
 const JWT_SECRET = 'FOOBAR';
 
 const users = [];
-const drawing = [];
-
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
